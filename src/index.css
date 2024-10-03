@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: conic-gradient(from 90deg at bottom right, rgb(255, 0, 212), rgb(51, 66, 153));
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.container form {
+  width: 70%;
+  border: 3px solid #eee;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin: 20px 0 10px;
+  font-weight: 700;
+}
+
+input {
+  line-height: 1.7rem;
+  padding: 5px 10px;
+  color: black;
+  border-radius: 3px;
+  outline: none;
+  width: 100%;
+}
+
+.btn {
+  background: #68117e;
+  color: #fff;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  cursor: pointer;
+  margin-top: 2rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #f32be2;
+}
+
+.reset-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c31bc3;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reset-btn:hover {
+  background-color: #a9739c;
+}
+
+h2 {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.user-info {
+  margin-top: 20px;
+}
+
+.user-info img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.repo-list {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
